@@ -13,7 +13,6 @@
 //     console.log(4*5)
 // }
 
-
 // var a = 1;
 // b();
 // c();
@@ -31,7 +30,6 @@
 // const res=typeof(value)+value
 // console.log(res)
 
-
 // const heading=document.getElementById('heading')
 // heading.onclick=()=>{
 //   heading.innerText='Namstee Guru'
@@ -43,14 +41,11 @@
 // const c=10
 // a()
 
-
 // function a(){
 //   console.log(c)
 //   const c=20
 // }
 // a()
-
-
 
 // console.error('Hello');
 
@@ -69,7 +64,30 @@
 // let res=a()
 // console.log(res)
 
-console.log(a)
-function a(){
-    console.log(154)
+// console.log(a)
+// function a(){
+//     console.log(154)
+// }
+
+// function x(){
+//     for(let i=1;i<=5;i++){
+//         setTimeout(function (){
+//             console.log(i )
+//         },i*1000)
+//     }
+//     console.log('Hello world.......')
+// }
+// x()
+
+function x() {
+  for (var i = 1; i <= 5; i++) {
+    function closu(x) {
+      setTimeout(() => {
+        console.log(x);
+      }, i * 3000);
+    }
+    closu(i)
+  }
+  console.log("Hello world.....");
 }
+x();
