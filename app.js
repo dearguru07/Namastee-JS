@@ -79,15 +79,29 @@
 // }
 // x()
 
-function x() {
-  for (var i = 1; i <= 5; i++) {
-    function closu(x) {
-      setTimeout(() => {
-        console.log(x);
-      }, i * 3000);
-    }
-    closu(i)
-  }
-  console.log("Hello world.....");
-}
-x();
+// function x() {
+//   for (var i = 1; i <= 5; i++) {
+//     function closu(x) {
+//       setTimeout(() => {
+//         console.log(x);
+//       }, i * 3000);
+//     }
+//     closu(i)
+//   }
+//   console.log("Hello world.....");
+// }
+// x();
+
+
+// function z() {
+//   var f = 10;
+//   function x() {
+//     var g = 20;
+//     function c() {
+//       console.log(g,f);
+//     }
+//     c();
+//   }
+//   x();
+// }
+// z();
