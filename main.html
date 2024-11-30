@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onmousedown Example</title>
+</head>
+<body>
+    <div id="myDiv" style="width:100px; height:100px; background-color:blue;"></div>
+
+    <script>
+        var div = document.getElementById('myDiv');
+        
+        div.onmousedown = function() {
+            div.style.backgroundColor = 'red';
+        };
+    </script>
+</body>
+</html>
