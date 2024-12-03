@@ -38,19 +38,40 @@
 // });
 
 
-console.log("One");
-console.log("Two");
-console.log("Three");
-console.log("Four");
-const myPromise = new Promise((resolve, reject) => {
-  resolve(() => {
-    console.lo("Five");
-  });
-});
-myPromise.then(() => {
-  console.log("Six");
-  console.log("Seven");
-}).catch(()=>{
-    console.log('Error is occured........')
-})
+// console.log("One");
+// console.log("Two");
+// console.log("Three");
+// console.log("Four");
+// const myPromise = new Promise((resolve, reject) => {
+//   resolve(() => {
+//     console.lo("Five");
+//   });
+// });
+// myPromise.then(() => {
+//   console.log("Six");
+//   console.log("Seven");
+// }).catch(()=>{
+//     console.log('Error is occured........')
+// })
 
+
+
+// b()
+// a()
+// function a(){
+//   console.log('a called...')
+// }
+
+// let b=function (){
+//   console.log('b called...')
+// }
+// a()
+// b()
+
+
+console.log('Start')
+let res=document.getElementById('btn')
+function cb(){
+  console.log('clicked...........')
+}
+console.log('End.....')
