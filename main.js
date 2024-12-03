@@ -90,3 +90,802 @@ myPromise.then(() => {
     console.log('Error is occured........')
 })
 
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
+
+console.log("One");
+console.log("Two");
+console.log("Three");
+console.log("Four");
+const myPromise = new Promise((resolve, reject) => {
+  resolve(() => {
+    console.lo("Five");
+  });
+});
+myPromise.then(() => {
+  console.log("Six");
+  console.log("Seven");
+}).catch(()=>{
+    console.log('Error is occured........')
+})
+
