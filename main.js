@@ -69,9 +69,17 @@
 // b()
 
 
+// console.log('Start')
+// let res=document.getElementById('btn')
+// function cb(){
+//   console.log('clicked...........')
+// }
+// console.log('End.....')
+
+
 console.log('Start')
-let res=document.getElementById('btn')
-function cb(){
-  console.log('clicked...........')
-}
-console.log('End.....')
+let res=document.getElementById('btn').addEventListener('click',()=>{
+  console.log('Namstee JS......')
+})
+
+console.log('End ......')
