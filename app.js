@@ -105,3 +105,30 @@
 //   x();
 // }
 // z();
+
+
+// first class functions--------
+
+
+let f=function (param1){
+  console.log(param1)
+}
+f(function (){
+
+})
+
+
+let k=function (param1){
+  console.log(param1)
+}  
+function xyz(){
+
+}
+k(xyz)
+
+
+var x=function (param1){
+    return function hello(){
+  
+    }
+}
