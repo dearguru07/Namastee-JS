@@ -5,6 +5,37 @@
 //     console.log('Namastee JS.....')
 // }
 
+
+function reverseWords(sentence) {
+  // Step 1: Split the sentence into words
+  let words = sentence.split(' ');
+  
+  // Step 2: Reverse the words using two pointers (without using reverse)
+  let left = 0;
+  let right = words.length - 1;
+  
+  while (left < right) {
+      // Swap the words
+      let temp = words[left];
+      words[left] = words[right];
+      words[right] = temp;
+      
+      // Move the pointers towards the center
+      left++;
+      right--;
+  }
+  
+  // Step 3: Join the words back into a sentence
+  return words.join(' ');
+}
+
+// Example usage
+let sentence = "The quick brown fox jumps over the lazy dog";
+let reversedSentence = reverseWords(sentence);
+console.log(reversedSentence);  // Output: "dog lazy the over jumps fox brown quick The"
+
+
+
 // GetName()
 // console.log(a)
 // console.log(GetName)
