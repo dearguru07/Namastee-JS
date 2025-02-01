@@ -35,44 +35,52 @@ let reversedSentence = reverseWords(sentence);
 console.log(reversedSentence);  // Output: "dog lazy the over jumps fox brown quick The"
 
 
-function quickselect(arr, left, right, k) {
-  if (left === right) return arr[left];
+// Definition for singly-linked list node.
+function ListNode(val) {
+  this.val = val;
+  this.next = null;
+}
+
+function swapPairs(head) {
+  // Create a dummy node to simplify handling of the head node
+  let dummy = new ListNode(0);
+  dummy.next = head;
   
-  const pivotIndex = partition(arr, left, right);
+  let current = dummy;
   
-  if (k === pivotIndex) {
-      return arr[k];
-  } else if (k < pivotIndex) {
-      return quickselect(arr, left, pivotIndex - 1, k);
-  } else {
-      return quickselect(arr, pivotIndex + 1, right, k);
+  while (current.next !== null && current.next.next !== null) {
+      let first = current.next;
+      let second = current.next.next;
+      
+      // Swapping the nodes
+      first.next = second.next;
+      second.next = first;
+      current.next = second;
+      
+      // Move the current pointer to the next pair
+      current = first;
+  }
+  
+  return dummy.next;
+}
+
+// Helper function to print the list (for testing)
+function printList(head) {
+  let current = head;
+  while (current !== null) {
+      console.log(current.val);
+      current = current.next;
   }
 }
 
-function partition(arr, left, right) {
-  const pivot = arr[right];
-  let i = left;
-  
-  for (let j = left; j < right; j++) {
-      if (arr[j] >= pivot) {
-          [arr[i], arr[j]] = [arr[j], arr[i]];
-          i++;
-      }
-  }
-  
-  [arr[i], arr[right]] = [arr[right], arr[i]];
-  return i;
-}
+// Example usage
+let head = new ListNode(1);
+head.next = new ListNode(2);
+head.next.next = new ListNode(3);
+head.next.next.next = new ListNode(4);
 
-function findKthLargest(arr, k) {
-  const n = arr.length;
-  return quickselect(arr, 0, n - 1, k - 1); // k-1 to match zero-indexed
-}
-
-// Example Usage
-let arr = [3, 2, 1, 5, 6, 4];
-let k = 2;
-console.log(findKthLargest(arr, k));  // Output: 5
+let newHead = swapPairs(head);
+printList(newHead);  // Output: 2 -> 1 -> 4 -> 3
 
 
 
