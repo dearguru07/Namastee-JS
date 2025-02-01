@@ -1,0 +1,99 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 19,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 1,
+      "column": 19
+    }
+  },
+  "comments": [],
+  "range": [0, 19],
+  "sourceType": "module",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 19,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 19
+        }
+      },
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4,
+          "end": 19,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 4
+            },
+            "end": {
+              "line": 1,
+              "column": 19
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "start": 4,
+            "end": 5,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 4
+              },
+              "end": {
+                "line": 1,
+                "column": 5
+              },
+              "identifierName": "a"
+            },
+            "name": "a",
+            "range": [4, 5],
+            "_babelType": "Identifier"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 6,
+            "end": 19,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 6
+              },
+              "end": {
+                "line": 1,
+                "column": 19
+              }
+            },
+            "extra": {
+              "rawValue": "Hello world",
+              "raw": "'Hello world'"
+            },
+            "value": "Hello world",
+            "range": [6, 19],
+            "_babelType": "StringLiteral",
+            "raw": "'Hello world'"
+          },
+          "range": [4, 19],
+          "_babelType": "VariableDeclarator"
+        }
+      ],
+      "kind": "let",
+      "range": [0, 19],
+      "_babelType": "VariableDeclaration"
+    }
+  ]
+}

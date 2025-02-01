@@ -132,3 +132,7 @@ var x=function (param1){
   
     }
 }
+
+import OpenAI from "openai"
+
+const openai=new OpenAI({})
