@@ -110,29 +110,51 @@
 // first class functions--------
 
 
-let f=function (param1){
-  console.log(param1)
-}
-f(function (){
-
-})
-
-
-let k=function (param1){
-  console.log(param1)
-}  
-function xyz(){
-
-}
-k(xyz)
+// let f=function (param1){
+//   console.log(param1)
+// }
+// f(function (){
+// })
 
 
-var x=function (param1){
-    return function hello(){
-  
-    }
-}
+// let k=function (param1){
+//   console.log(param1)
+// }  
+// function xyz(){
+// }
+// k(xyz)
 
-import OpenAI from "openai"
 
-const openai=new OpenAI({})
+// var x=function (param1){
+//     return function hello(){
+//     }
+// }
+
+// console.log(new Date().getTime()); // Example output: 1706791234567
+
+// let NewDate=new Date().getTime()
+// console.log(NewDate)
+
+
+// console.log('One')
+// setTimeout(()=>{
+//   console.log('Threee')
+// })
+// // setTimeout(()=>{
+// //   console.log('Two.....')
+// // },1000)
+
+// console.log('Four......')
+
+// var a=58
+// let guru=['hello','world...']
+
+
+console.log('One')
+setTimeout(()=>{
+  console.log('Two')
+},4000)
+console.log('Threee')
+setTimeout(()=>{
+  console.log('Four')
+},4000)
