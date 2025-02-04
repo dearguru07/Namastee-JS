@@ -48,6 +48,8 @@
 // a()
 
 // console.error('Hello');
+// const error=new Error('Mistake......')
+// console.log(error)
 
 // x()
 // function x(){
@@ -69,24 +71,26 @@
 //     console.log(154)
 // }
 
-// function x(){
-//     for(let i=1;i<=5;i++){
-//         setTimeout(function (){
-//             console.log(i )
-//         },i*1000)
-//     }
-//     console.log('Hello world.......')
-// }
-// x()
+function x(){
+    for(let i=1;i<=5;i++){
+        setTimeout(function (){
+            console.log(i )
+        },i*1000)
+    }
+    console.log('Hello world.......')
+}
+x()
+
+
 
 // function x() {
 //   for (var i = 1; i <= 5; i++) {
-//     function closu(x) {
+//     function close(x) {
 //       setTimeout(() => {
 //         console.log(x);
 //       }, i * 3000);
 //     }
-//     closu(i)
+//     close(i)
 //   }
 //   console.log("Hello world.....");
 // }
@@ -150,11 +154,11 @@
 // let guru=['hello','world...']
 
 
-console.log('One')
-setTimeout(()=>{
-  console.log('Two')
-},4000)
-console.log('Threee')
-setTimeout(()=>{
-  console.log('Four')
-},4000)
+// console.log('One')
+// setTimeout(()=>{
+//   console.log('Two')
+// },4000)
+// console.log('Threee')
+// setTimeout(()=>{
+//   console.log('Four')
+// },4000)
