@@ -13,6 +13,9 @@
 //     console.log(4*5)
 // }
 
+// const u=typeof(NaN)
+// console.log(u)
+
 // var a = 1;
 // b();
 // c();
@@ -71,17 +74,15 @@
 //     console.log(154)
 // }
 
-function x(){
-    for(let i=1;i<=5;i++){
-        setTimeout(function (){
-            console.log(i )
-        },i*1000)
-    }
-    console.log('Hello world.......')
-}
-x()
-
-
+// function x(){
+//     for(let i=1;i<=5;i++){
+//         setTimeout(function (){
+//             console.log(i )
+//         },i*1000)
+//     }
+//     console.log('Hello world.......')
+// }
+// x()
 
 // function x() {
 //   for (var i = 1; i <= 5; i++) {
@@ -96,7 +97,6 @@ x()
 // }
 // x();
 
-
 // function z() {
 //   var f = 10;
 //   function x() {
@@ -110,9 +110,7 @@ x()
 // }
 // z();
 
-
-// first class functions--------
-
+// first class functions & First class Citizens --------
 
 // let f=function (param1){
 //   console.log(param1)
@@ -120,14 +118,13 @@ x()
 // f(function (){
 // })
 
-
 // let k=function (param1){
 //   console.log(param1)
-// }  
-// function xyz(){
 // }
+// function xyz(){}
 // k(xyz)
 
+//
 
 // var x=function (param1){
 //     return function hello(){
@@ -138,7 +135,6 @@ x()
 
 // let NewDate=new Date().getTime()
 // console.log(NewDate)
-
 
 // console.log('One')
 // setTimeout(()=>{
@@ -153,7 +149,6 @@ x()
 // var a=58
 // let guru=['hello','world...']
 
-
 // console.log('One')
 // setTimeout(()=>{
 //   console.log('Two')
@@ -162,3 +157,25 @@ x()
 // setTimeout(()=>{
 //   console.log('Four')
 // },4000)
+
+let radius = [3, 4, 8, 5];
+function CalculateAre(radius) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(Math.PI * radius[i] * radius[i]);
+  }
+  return output;
+}
+console.log(CalculateAre(radius));
+
+
+function CalculateCircuference(radius) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(2 * Math.PI * radius[i]);
+  }
+  return output;
+}
+console.log(CalculateCircuference(radius));
+
+
