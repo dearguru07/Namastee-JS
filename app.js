@@ -179,3 +179,11 @@ function CalculateCircuference(radius) {
 console.log(CalculateCircuference(radius));
 
 
+function CalculateDiameter(radius) {
+  const output = [];
+  for (let i = 0; i < radius.length; i++) {
+    output.push(2 * radius[i]);
+  }
+  return output;
+}
+console.log(CalculateDiameter(radius))
