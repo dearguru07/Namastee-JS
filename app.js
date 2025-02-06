@@ -186,90 +186,49 @@
 // }
 // console.log(CalculateDiameter(radius))
 
+// let radius = [3, 4, 8, 5];
+
+// const Area = function (radius) {
+//   return 2 * Math.PI * radius[i] * radius[i];
+// };
+// const Diameter = function (radius) {
+//   return 2 * radius[i];
+// };
+// const Circufrenece = function (radius) {
+//   return 2 * Math.PI.radius[i];
+// };
+
+// function Calculate(radius) {
+//   const output = [];
+//   for (let i = 0; i < radius.length; i++) {
+//     output.push(radius[i]);
+//   }
+//   return output;
+// }
+
+// console.log(Calculate(radius))
 
 
-let radius = [3, 4, 8, 5];
 
-const Area = function (radius) {
-  return 2 * Math.PI * radius[i] * radius[i];
-};
-const Diameter = function (radius) {
-  return 2 * radius[i];
-};
-const Circufrenece = function (radius) {
-  return 2 * Math.PI.radius[i];
-};
-
-function Calculate(radius) {
-  const output = [];
-  for (let i = 0; i < radius.length; i++) {
-    output.push(radius[i]);
-  }
-  return output;
-}
-
-console.log(Calculate(radius))
-
-let radius = [3, 4, 8, 5];
-
-const Area = function (radius) {
-  return 2 * Math.PI * radius[i] * radius[i];
-};
-const Diameter = function (radius) {
-  return 2 * radius[i];
-};
-const Circufrenece = function (radius) {
-  return 2 * Math.PI.radius[i];
-};
-
-function Calculate(radius) {
-  const output = [];
-  for (let i = 0; i < radius.length; i++) {
-    output.push(radius[i]);
-  }
-  return output;
-}
-
-console.log(Calculate(radius))
-let radius = [3, 4, 8, 5];
+let radius = [2, 4, 7, 8, 5];
 
 const Area = function (radius) {
-  return 2 * Math.PI * radius[i] * radius[i];
+  return 2 * Math.PI * radius * radius;
 };
-const Diameter = function (radius) {
-  return 2 * radius[i];
-};
-const Circufrenece = function (radius) {
-  return 2 * Math.PI.radius[i];
-};
-
-function Calculate(radius) {
-  const output = [];
-  for (let i = 0; i < radius.length; i++) {
-    output.push(radius[i]);
-  }
-  return output;
+const Circufrenece=function(radius){
+  return 2*Math.PI*radius
 }
 
-console.log(Calculate(radius))
-let radius = [3, 4, 8, 5];
-
-const Area = function (radius) {
-  return 2 * Math.PI * radius[i] * radius[i];
-};
-const Diameter = function (radius) {
-  return 2 * radius[i];
-};
-const Circufrenece = function (radius) {
-  return 2 * Math.PI.radius[i];
-};
-
-function Calculate(radius) {
-  const output = [];
+const Diameter=function(radius){
+  return 2*radius
+}
+const Calculate = function (radius, logic) {
+  let output = [];
   for (let i = 0; i < radius.length; i++) {
-    output.push(radius[i]);
+    output.push(logic(radius[i]));
   }
   return output;
-}
-
-console.log(Calculate(radius))
+};
+console.log(Calculate(radius, Area));
+console.log(Calculate(radius, Circufrenece));
+console.log(Calculate(radius, Diameter));
