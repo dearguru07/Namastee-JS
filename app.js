@@ -210,25 +210,71 @@
 
 
 
-let radius = [2, 4, 7, 8, 5];
+// let radius = [2, 4, 7, 8, 5];
 
-const Area = function (radius) {
-  return 2 * Math.PI * radius * radius;
-};
-const Circufrenece=function(radius){
-  return 2*Math.PI*radius
-}
+// const Area = function (radius) {
+//   return 2 * Math.PI * radius * radius;
+// };
+// const Circufrenece=function(radius){
+//   return 2*Math.PI*radius
+// }
 
-const Diameter=function(radius){
-  return 2*radius
+// const Diameter=function(radius){
+//   return 2*radius
+// }
+// const Calculate = function (radius, logic) {
+//   let output = [];
+//   for (let i = 0; i < radius.length; i++) {
+//     output.push(logic(radius[i]));
+//   }
+//   return output;
+// };
+// console.log(Calculate(radius, Area));
+// console.log(Calculate(radius, Circufrenece));
+// console.log(Calculate(radius, Diameter));
+
+// const res=radius.map(Area)
+// console.log(res);
+
+
+let arr=[2,5,7,8,9]
+
+
+// maps function-----------
+
+// let inf=arr.map(function(x){
+//   return x*3
+// })
+// console.log(inf);
+
+
+// let output=arr.map((x)=>{
+//   return x*2
+// })
+// console.log(output);
+
+
+// function bin(x){
+//   return x.toString(2)
+// }
+// let binary=arr.map(bin)
+// console.log(binary);
+
+
+// filter function---------
+
+let output=arr.filter((x)=>{
+  return x%2
+})
+console.log(output);
+
+let res=arr.filter(function(x){
+  return x%2===0;
+})
+console.log(res);
+
+function graterFour(x){
+  return x>4;
 }
-const Calculate = function (radius, logic) {
-  let output = [];
-  for (let i = 0; i < radius.length; i++) {
-    output.push(logic(radius[i]));
-  }
-  return output;
-};
-console.log(Calculate(radius, Area));
-console.log(Calculate(radius, Circufrenece));
-console.log(Calculate(radius, Diameter));
+let sol=arr.filter(graterFour)
+console.log(sol);
