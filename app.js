@@ -261,20 +261,30 @@ let arr=[2,5,7,8,9]
 // console.log(binary);
 
 
+
 // filter function---------
 
-let output=arr.filter((x)=>{
-  return x%2
-})
-console.log(output);
+// let output=arr.filter((x)=>{
+//   return x%2
+// })
+// console.log(output);
 
-let res=arr.filter(function(x){
-  return x%2===0;
-})
-console.log(res);
+// let res=arr.filter(function(x){
+//   return x%2===0;
+// })
+// console.log(res);
 
-function graterFour(x){
-  return x>4;
+// function graterFour(x){
+//   return x>4;
+// }
+// let sol=arr.filter(graterFour)
+// console.log(sol);
+
+
+function a(){
+  for(var i=0;i<10;i++){
+    return i
+  }
 }
-let sol=arr.filter(graterFour)
-console.log(sol);
+console.log(a());
+a()
