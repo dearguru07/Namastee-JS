@@ -158,59 +158,15 @@
 //   console.log('Four')
 // },4000)
 
-let radius = [3, 4, 8, 5];
-function CalculateAre(radius) {
-  const output = [];
-  for (let i = 0; i < radius.length; i++) {
-    output.push(Math.PI * radius[i] * radius[i]);
-  }
-  return output;
-}
-console.log(CalculateAre(radius));
-
-let radius = [3, 4, 8, 5];
-function CalculateAre(radius) {
-  const output = [];
-  for (let i = 0; i < radius.length; i++) {
-    output.push(Math.PI * radius[i] * radius[i]);
-  }
-  return output;
-}
-console.log(CalculateAre(radius));
-
-let radius = [3, 4, 8, 5];
-function CalculateAre(radius) {
-  const output = [];
-  for (let i = 0; i < radius.length; i++) {
-    output.push(Math.PI * radius[i] * radius[i]);
-  }
-  return output;
-}
-console.log(CalculateAre(radius));
-
-let radius = [3, 4, 8, 5];
-function CalculateAre(radius) {
-  const output = [];
-  for (let i = 0; i < radius.length; i++) {
-    output.push(Math.PI * radius[i] * radius[i]);
-  }
-  return output;
-}
-console.log(CalculateAre(radius));
-
-v
-let radius = [3, 4, 8, 5];
-function CalculateAre(radius) {
-  const output = [];
-  for (let i = 0; i < radius.length; i++) {
-    output.push(Math.PI * radius[i] * radius[i]);
-  }
-  return output;
-}
-console.log(CalculateAre(radius));
-
-
-
+// let radius = [3, 4, 8, 5];
+// function CalculateAre(radius) {
+//   const output = [];
+//   for (let i = 0; i < radius.length; i++) {
+//     output.push(Math.PI * radius[i] * radius[i]);
+//   }
+//   return output;
+// }
+// console.log(CalculateAre(radius));
 
 // function CalculateCircuference(radius) {
 //   const output = [];
