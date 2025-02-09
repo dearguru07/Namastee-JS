@@ -264,21 +264,21 @@ let arr=[2,5,7,8,9]
 
 // filter function---------
 
-// let output=arr.filter((x)=>{
-//   return x%2
-// })
-// console.log(output);
+let output=arr.filter((x)=>{
+  return x%2
+})
+console.log(output);
 
-// let res=arr.filter(function(x){
-//   return x%2===0;
-// })
-// console.log(res);
+let res=arr.filter(function(x){
+  return x%2===0;
+})
+console.log(res);
 
-// function graterFour(x){
-//   return x>4;
-// }
-// let sol=arr.filter(graterFour)
-// console.log(sol);
+function graterFour(x){
+  return x>4;
+}
+let sol=arr.filter(graterFour)
+console.log(sol);
 
 
 function a(){
@@ -291,8 +291,24 @@ a()
 
 
 
-
-function a(){
+let output=arr.filter((x)=>{
+    return x%2
+  })
+  console.log(output);
+  
+  let res=arr.filter(function(x){
+    return x%2===0;
+  })
+  console.log(res);
+  
+  function graterFour(x){
+    return x>4;
+  }
+  let sol=arr.filter(graterFour)
+  console.log(sol);
+  
+  
+  function a(){
     for(var i=0;i<10;i++){
       return i
     }
@@ -302,7 +318,24 @@ function a(){
   
 
   
-function a(){
+let output=arr.filter((x)=>{
+    return x%2
+  })
+  console.log(output);
+  
+  let res=arr.filter(function(x){
+    return x%2===0;
+  })
+  console.log(res);
+  
+  function graterFour(x){
+    return x>4;
+  }
+  let sol=arr.filter(graterFour)
+  console.log(sol);
+  
+  
+  function a(){
     for(var i=0;i<10;i++){
       return i
     }
@@ -310,19 +343,5 @@ function a(){
   console.log(a());
   a()
   
-  
-  v
-  
-function a(){
-    for(var i=0;i<10;i++){
-      return i
-    }
-  }
-  console.log(a());
-  a()
-  
 
   
-
-
-
