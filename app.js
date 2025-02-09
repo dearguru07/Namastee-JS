@@ -281,15 +281,48 @@ let arr=[2,5,7,8,9]
 // console.log(sol);
 
 
-// function a(){
-//   for(var i=0;i<10;i++){
-//     return i
-//   }
-// }
-// console.log(a());
-// a()
+function a(){
+  for(var i=0;i<10;i++){
+    return i
+  }
+}
+console.log(a());
+a()
 
 
+
+
+function a(){
+    for(var i=0;i<10;i++){
+      return i
+    }
+  }
+  console.log(a());
+  a()
+  
+
+  
+function a(){
+    for(var i=0;i<10;i++){
+      return i
+    }
+  }
+  console.log(a());
+  a()
+  
+  
+  v
+  
+function a(){
+    for(var i=0;i<10;i++){
+      return i
+    }
+  }
+  console.log(a());
+  a()
+  
+
+  
 
 
 
